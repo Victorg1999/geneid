@@ -1,9 +1,14 @@
 ******************** geneid v.1.4.5 README File ********************
 
+<<<<<<< HEAD
 Summary:
 A. What's geneid ???
+=======
+**Summary:**
+A. What's geneid ????
+>>>>>>> 647ef71add7ab615e84abc9ae94d7f85b3e487eb
 B. Installing geneid
-C. File Listing
+C. <h1>File Listing</h1>
 D. Compiling geneid
 E. To run geneid
 F. Authors and help

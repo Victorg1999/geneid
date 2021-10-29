@@ -4,16 +4,16 @@
 A. What's geneid ???
 =====================
 **Summary:**
-A. What's geneid ????
-B. Installing geneid
-C. <h1>File Listing</h1>
-D. Compiling geneid
-E. To run geneid
-F. Authors and help
+
+1 - [What's geneid](#1)<br />
+2 - [Installing geneid](#2) <br />
+3 - [File Listing](#3) <br />
+4 - [Compiling geneid](#4) <br />
+5 - [To run geneid](#5) <br />
+6 - [Authors and help](#6)<br />
 
 ***************************************
-"https://github.com/guigolab/geneid"
-A. What's geneid ?
+What's geneid ? <a name= "1"/>
 ------------------
 
 geneid is a program to predict genic elements as splice sites, exons 
@@ -31,7 +31,7 @@ Comments and questions are welcome.
 
 ***************************************
 
-B. Installing geneid
+Installing geneid <a name= "2"/>
 --------------------
 
 The geneid distribution contains several directories and files. Source 
@@ -59,7 +59,7 @@ in your working directory.
 
 ***************************************
 
-C. File Listing
+File Listing <a name= "3"/>
 ---------------
 
 The geneid distribution contains the following files and directories:
@@ -96,7 +96,7 @@ This file.
 
 ***************************************
 
-D. Compiling geneid
+Compiling geneid <a name= "4"/>
 -------------------
 
 Move into the geneid directory.
@@ -114,7 +114,7 @@ to test the binary file has been correctly created.
 
 ***************************************
 
-E. To run geneid
+To run geneid <a name= "5"/>
 -----------------
 
 To run geneid type:
@@ -128,7 +128,7 @@ For example,
 
 ***************************************
 
-F. Authors and help
+Authors and help <a name= "6">
 -------------------
 
 geneid has been written by Enrique Blanco, Tyler Alioto and Roderic Guig� (CRG).

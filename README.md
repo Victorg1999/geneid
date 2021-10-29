@@ -1,16 +1,13 @@
-******************** geneid v.1.4.5 README File ********************
+ <h1 align="center" color="blue"> Geneid v.1.4.5 README File <h1/>
 
-# Summary:
-A. What's geneid ???
-=====================
 **Summary:**
 
-1 - [What's geneid](#1)<br />
-2 - [Installing geneid](#2) <br />
-3 - [File Listing](#3) <br />
-4 - [Compiling geneid](#4) <br />
-5 - [To run geneid](#5) <br />
-6 - [Authors and help](#6)<br />
+* [What's geneid](#1)<br />
+* [Installing geneid](#2) <br />
+* [File Listing](#3) <br />
+* [Compiling geneid](#4) <br />
+* [To run geneid](#5) <br />
+* [Authors and help](#6)<br />
 
 ***************************************
 What's geneid ? <a name= "1"/>

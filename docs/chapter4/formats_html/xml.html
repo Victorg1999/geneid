@@ -1,34 +1,37 @@
 <html>
+
 <head>
-<style type="text/css">
-div.bulk { text-align: justify }
-</style>
-<title>
-geneid docs
-</title>
+   <style type="text/css">
+      div.bulk {
+         text-align: justify
+      }
+   </style>
+   <title>
+      XML Output Format
+   </title>
 </head>
 
-<BODY 
-TEXT color ="black"
-BGCOLOR="white"
-LINK="black"
-VLINK="black"
-ALINK="black">
+<BODY TEXT color="black" BGCOLOR="white" LINK="black" VLINK="black" ALINK="black">
 
-<br><p>
-<center>
-<font face=courier size=5 color=red>XML output format (Description)</font>
-<br><p>
-<table border=0 cellpadding=15>
-<tr>
-<td align=center>
-<font color="red">Gene extracted from a human prediction (XML format)
-</td>
-<tr>
-<td bgcolor=black>
-<font size=3 color="white">
-<b>
-<pre>
+   <br>
+   <p>
+      <center>
+         <font face=courier size=5 color=red><b> XML Output Format (Description)</b></font>
+         <br>
+         <td align=right>
+            <font face="arial black" size=3 color="blue">
+               <br><a href="./../index.html">INDEX</a>
+         </td>
+         <table border=0 cellpadding=15>
+            <tr>
+               <td align=center>
+                  <font color="black" face="Times New Roman" size=4>Gene extracted from a human prediction (XML format)
+               </td>
+            <tr>
+               <td bgcolor=black>
+                  <font size=3 color="white">
+                     <b>
+                        <pre>
 <font color="yellow">&lt;?xml version="1.0" ?&gt;
 &lt;!DOCTYPE prediction SYSTEM "geneid.dtd"&gt;</font>
 <font color="lightgreen">
@@ -70,53 +73,58 @@ ALINK="black">
    <font color="#A000F0">&lt;/gene&gt;</font>
 ...
 <font color="lightgreen">&lt;/prediction&gt;</font>
-</pre></b></font>
-</td></table>
-<br><p><br><p>
+</pre>
+                     </b>
+                  </font>
+               </td>
+         </table>
+         <br>
+         <table border=0 cellpadding=10>
+            <tr>
+               <td align=center colspan=2>
+                  <font color="red">Description of columns (gff format)
+               </td>
+            <tr>
+               <td bgcolor="yellow">XML headers</td>
+               <td>&rarr; <font face="Times New Roman" size=4>XML Version and DTD used</td></font>
+            <tr>
+               <td bgcolor="lightgreen">Prediction</td>
+               <td>&rarr; <font face="Times New Roman" size=4>Prediction as a collection of genes</td></font>
+            <tr>
+               <td bgcolor="#A000F0">Gene</td>
+               <td>&rarr; <font face="Times New Roman" size=4>Gene as a collection of exons</td></font>
+            <tr>
+               <td bgcolor="orange">Exon</td>
+               <td>&rarr; <font face="Times New Roman" size=4>Gene as a couple of sites</td></font>
+            <tr>
+               <td bgcolor="red">Site</td>
+               <td>&rarr; <font face="Times New Roman" size=4>Splice site or transcription signal description</td></font>
+            <tr>
+               <td bgcolor="magenta">Key</td>
+               <td>&rarr; <font face="Times New Roman" size=4>Predicted protein</td></font>
+         </table>
+         <br>
 
-<table border=0 cellpadding=10>
-<tr>
-<td align=center colspan=2><font color="red">Description of columns (gff format)</td>
-<tr>
-<td bgcolor="yellow">XML headers</td>
-<td>XML Version and DTD used</td>
-<tr>
-<td bgcolor="lightgreen">Prediction</td>
-<td>Prediction as a collection of genes</td>
-<tr>
-<td bgcolor="#A000F0">Gene</td>
-<td>Gene as a collection of exons</td>
-<tr>
-<td bgcolor="orange">Exon</td>
-<td>Gene as a couple of sites</td>
-<tr>
-<td bgcolor="red">Site</td>
-<td>Splice site or transcription signal description</td>
-<tr>
-<td bgcolor="magenta">Key</td>
-<td>Predicted protein</td>
-</table>
-<br><p><br><p>
-<center>
-To see more details about XML format, <a href="http://www.w3.org/XML/">click here</a>
-</center>
-<br><p><br><p>
-<table border=0>
-<tr>
-<td align=left bgcolor=darkgreen>
-<script>
-var modifieddate=document.lastModified
-    document.write("<font size=1 face  = 'arial black'  color='white'>" + 
-                   "Last modified: " + modifieddate)
-</script>
-</td>
-</table>
+         <center>
+            <font face="Times New Roman" size=4>To see more details about XML format, <a href="http://www.w3.org/XML/">click here</a></font>
+         </center>
+         <br>
+         <table border=0>
+            <tr>
+               <td align=left bgcolor=darkgreen>
+                  <script>
+                     var modifieddate = document.lastModified
+                     document.write("<font size=1 face  = 'arial black'  color='white'>" +
+                        "Last modified: " + modifieddate)
+                  </script>
+               </td>
+         </table><br>
+         <a href="#top">Back to top</a>
 
-<br><p>
-Enrique Blanco Garcia &copy; 2003<br><p><br><p>
-</center>
+         <p>
+            Enrique Blanco Garcia &copy; 2003<br>
+
+      </center>
 </body>
+
 </html>
-
-
-

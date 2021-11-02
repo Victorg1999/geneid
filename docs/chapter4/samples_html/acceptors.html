@@ -1,44 +1,39 @@
 <html>
-
 <head>
-    <style type="text/css">
-        div.bulk {
-            text-align: justify
-        }
-    </style>
-    <title>
-        Geind Samples
-    </title>
+<style type="text/css">
+div.bulk { text-align: justify }
+</style>
+<title>
+geneid docs
+</title>
 </head>
 
-<BODY TEXT color="blue" BGCOLOR="white" LINK="black" VLINK="black" ALINK="black">
+<BODY 
+TEXT color ="blue"
+BGCOLOR="white"
+LINK="black"
+VLINK="black"
+ALINK="black">
 
-    <br>
-    <center>
-        <table border=0 width=700 cellpadding=10>
-            <tr>
-                <td align=center bgcolor=white>
-                    <font face="courier" size=5 color="red"><b> Geneid Samples: Acceptor Splice Sites</b></font>
-                </td>
-            <tr>
+<br><p>
+<center>
+<table border=0 width=700 cellpadding=10>
+<tr>
+<td align=center bgcolor=white><font face="courier" size=5 color="red">geneid samples: acceptor splice sites</font></td>
+<tr>
+<td></td>
+<tr>
+<td bgcolor="lightblue">
+<div class="bulk"><font face="arial black" size=2>
 
-                <td align=center>
-                    <font face="arial black" size=3>
-                        <br><a href="./../index.html">INDEX</a>
-                </td>
-            <tr>
-                <td bgcolor="lightblue">
-                    <div class="bulk">
-                        <font face="arial black" size=2>
-
-                            <table border=0>
-                                <tr>
-                                    <td width=800 bgcolor="lightgreen" align="right">
-                                        <font size=5> 1. geneid (default) format</font>
-                                    </td>
-                                <tr>
-                                    <td>
-                                        <pre>
+<table border=0>
+<tr>
+<td width=800 bgcolor="lightgreen" align="right">
+<font size=5> 1. geneid (default) format</font>
+</td>
+<tr>
+<td>
+<pre>
 ## date Thu Sep 27 15:21:50 2003
 ## source-version: geneid v 1.2 -- geneid@imim.es
 ## Sequence test - Length = 198285 bps
@@ -66,25 +61,23 @@ Acceptor      478      479      -0.15   +       AGCAAGCTCCTCCTTGTGGCGTAGCAG
 Acceptor      481      482      -0.48   +       AAGCTCCTCCTTGTGGCGTAGCAGGGC
 ...
 </pre>
-                                    </td>
-                                <tr>
-                                    <td width=800 bgcolor="orange">
-                                        <b><tt>% bin/geneid -P param/human3iso.param -ao test.fa</tt></b>
-                                    </td>
-                            </table>
+</td>
+<tr>
+<td width=800 bgcolor="orange">
+<b><tt>% bin/geneid -P param/human3iso.param -ao test.fa</tt></b>
+</td>
+</table>
 
-                            <br>
-                            <p><br>
-                            <p>
+<br><p><br><p>
 
-                            <table border=0>
-                                <tr>
-                                    <td width=700 bgcolor="lightgreen" align="right">
-                                        <font size=5> 2. gff format</font>
-                                    </td>
-                                <tr>
-                                    <td>
-                                        <pre>
+<table border=0>
+<tr>
+<td width=700 bgcolor="lightgreen" align="right">
+<font size=5> 2. gff format</font>
+</td>
+<tr>
+<td>
+<pre>
 ## gff-version 2
 ## date Thu Sep 27 15:24:22 2003
 ## source-version: geneid v 1.2 -- geneid@imim.es
@@ -112,38 +105,35 @@ test    geneid_v1.2   Acceptor  456   457  -5.79   +   .    # TCTCTATCATCTGCTAAG
 test    geneid_v1.2   Acceptor  478   479  -0.15   +   .    # AGCAAGCTCCTCCTTGTGGCGTAGCAG
 ...  
 </pre>
-                                    </td>
-                                <tr>
-                                    <td width=700 bgcolor="orange">
-                                        <b><tt>% bin/geneid -P param/human3iso.param -aoG test.fa</tt></b>
-                                    </td>
-                            </table>
+</td>
+<tr>
+<td width=700 bgcolor="orange">
+<b><tt>% bin/geneid -P param/human3iso.param -aoG test.fa</tt></b>
+</td>
+</table>
 
-                        </font>
-                    </div>
-                </td>
-        </table>
+</font>
+</div>
+</td>
+</table>
 
-        <br>
-        <p><br>
+<br><p><br><p><br><p>
 
-        <table border=0>
-            <tr>
-                <td align=left bgcolor=darkgreen>
-                    <script>
-                        var modifieddate = document.lastModified
-                        document.write("<font size=1 face  = 'arial black'  color='white'>" +
-                            "Last modified: " + modifieddate)
-                    </script>
-                </td>
-        </table>
-        <br>
-        <a href="#top">Back to top</a>
+<table border=0>
+<tr>
+<td align=left bgcolor=darkgreen>
+<script>
+var modifieddate=document.lastModified
+    document.write("<font size=1 face  = 'arial black'  color='white'>" + 
+                   "Last modified: " + modifieddate)
+</script>
+</td>
+</table>
+<br><p>
+Enrique Blanco Garcia &copy; 2003<br><p><br><p>
+</center>
 
-        <p>
-            Enrique Blanco Garcia &copy; 2003<br>
 
-    </center>
 </body>
-
 </html>
+

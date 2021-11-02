@@ -1,47 +1,41 @@
 <html>
-
 <head>
-    <style type="text/css">
-        div.bulk {
-            text-align: justify
-        }
-    </style>
-    <title>
-        Re-annotation
-    </title>
+<style type="text/css">
+div.bulk { text-align: justify }
+</style>
+<title>
+geneid docs
+</title>
 </head>
 
-<BODY TEXT color="blue" BGCOLOR="white" LINK="black" VLINK="black" ALINK="black">
+<BODY 
+TEXT color ="blue"
+BGCOLOR="white"
+LINK="black"
+VLINK="black"
+ALINK="black">
 
-    <br>
-    <p>
-        <center>
-            <table border=0 width=700 cellpadding=10>
-                <tr>
-                    <td align=center bgcolor=white>
-                        <font face="courier" size=5 color="red"><b> Geneid Samples: Re-annotation</b></font>
-                    </td>
-                <tr>
-                    <td align=center>
-                        <font face="arial black" size=3>
-                            <br><a href="./../index.html">INDEX</a>
-                    </td>
-                    <td></td>
-                <tr>
-                    <td bgcolor="lightblue">
-                        <div class="bulk">
-                            <font face="arial black" size=2>
+<br><p>
+<center>
+<table border=0 width=700 cellpadding=10>
+<tr>
+<td align=center bgcolor=white><font face="courier" size=5 color="red">geneid samples: re-annotation</font></td>
+<tr>
+<td></td>
+<tr>
+<td bgcolor="lightblue">
+<div class="bulk"><font face="arial black" size=2>
 
-                                <table border=0>
-                                    <tr>
-                                        <td width=700 bgcolor="lightgreen" align="right">
-                                            <font size=5> 1. Prediction ab initio</font>
-                                        </td>
-                                    <tr>
-                                        <td>
-                                            <font size=3>
-                                                <b>
-                                                    <pre>
+<table border=0>
+<tr>
+<td width=700 bgcolor="lightgreen" align="right">
+<font size=5> 1. Prediction ab initio</font>
+</td>
+<tr>
+<td>
+<font size=3>
+<b>
+<pre>
 ## gff-version 2
 ## date Thu Jul  5 11:05:29 2003
 ## source-version: geneid v 1.1 -- geneid@imim.es
@@ -85,31 +79,29 @@ cons.x8bisXs.970911  geneid_v1.2 Internal 146071   146236    5.28 +  1  gene_7
 cons.x8bisXs.970911  geneid_v1.2 Internal 147791   148030   12.98 +  0  gene_7
 cons.x8bisXs.970911  geneid_v1.2 Terminal 150313   150423    1.53 +  0  gene_7
 </pre>
-                                                </b>
-                                            </font>
-                                        </td>
-                                    <tr>
-                                        <td width=700 bgcolor="orange">
-                                            <b><tt>% geneid -G test.fasta</tt></b>
-                                        </td>
-                                </table>
+</b>
+</font>
+</td>
+<tr>
+<td width=700 bgcolor="orange">
+<b><tt>% geneid -G test.fasta</tt></b>
+</td>
+</table>
 
 
-                                <br>
-                                <p><br>
-                                <p>
+<br><p><br><p>
 
 
-                                <table border=0>
-                                    <tr>
-                                        <td width=700 bgcolor="lightgreen" align="right">
-                                            <font size=5> 2. Introducing evidences (without group)</font>
-                                        </td>
-                                    <tr>
-                                        <td>
-                                            <font size=3>
-                                                <b>
-                                                    <pre>
+<table border=0>
+<tr>
+<td width=700 bgcolor="lightgreen" align="right">
+<font size=5> 2. Introducing evidences (without group)</font>
+</td>
+<tr>
+<td>
+<font size=3>
+<b>
+<pre>
 ## Annotated gene
 cons.x8bisXs.970911  annotation Terminal 11190 11300 .  -  .
 cons.x8bisXs.970911  annotation Internal 21842 22922 .  -  .
@@ -118,9 +110,9 @@ cons.x8bisXs.970911  annotation Internal 30732 30772 .  -  .
 cons.x8bisXs.970911  annotation Internal 48471 48659 .  -  .
 cons.x8bisXs.970911  annotation First    52780 52800 .  -  .
 </pre>
-                                                </b>
-                                                <hr>
-                                                <pre>
+</b>
+<hr>
+<pre>
 <b>
 ## gff-version 2
 ## date Thu Jul  5 11:27:58 2003
@@ -158,29 +150,27 @@ cons.x8bisXs.970911  geneid_v1.2 Internal 146071   146236    5.28 +  1  gene_5
 cons.x8bisXs.970911  geneid_v1.2 Internal 147791   148030   12.98 +  0  gene_5
 cons.x8bisXs.970911  geneid_v1.2 Terminal 150313   150423    1.53 +  0  gene_5
 </pre>
-                                                </b>
-                                            </font>
-                                        </td>
-                                    <tr>
-                                        <td width=700 bgcolor="orange">
-                                            <b><tt>% geneid -GR evi.gff test.fasta</tt></b>
-                                        </td>
-                                </table>
+</b>
+</font>
+</td>
+<tr>
+<td width=700 bgcolor="orange">
+<b><tt>% geneid -GR evi.gff test.fasta</tt></b>
+</td>
+</table>
 
-                                <br>
-                                <p><br>
-                                <p>
+<br><p><br><p>
 
-                                <table border=0>
-                                    <tr>
-                                        <td width=700 bgcolor="lightgreen" align="right">
-                                            <font size=5> 3. Introducing evidences (with group)</font>
-                                        </td>
-                                    <tr>
-                                        <td>
-                                            <font size=3>
-                                                <b>
-                                                    <pre>
+<table border=0>
+<tr>
+<td width=700 bgcolor="lightgreen" align="right">
+<font size=5> 3. Introducing evidences (with group)</font>
+</td>
+<tr>
+<td>
+<font size=3>
+<b>
+<pre>
 ## Annotated gene
 cons.x8bisXs.970911 annotation  Terminal 11190 11300 .  -  .  id_x
 cons.x8bisXs.970911 annotation  Internal 21842 22922 .  -  .  id_x
@@ -189,10 +179,10 @@ cons.x8bisXs.970911 annotation  Internal 30732 30772 .  -  .  id_x
 cons.x8bisXs.970911 annotation  Internal 48471 48659 .  -  .  id_x
 cons.x8bisXs.970911 annotation  First    52780 52800 .  -  .  id_x
 </pre>
-                                                </b>
-                                                <hr>
-                                                <b>
-                                                    <pre>
+</b>
+<hr>
+<b>
+<pre>
 ## gff-version 2
 ## date Thu Jul  5 11:28:29 2003
 ## source-version: geneid v 1.1 -- geneid@imim.es
@@ -226,39 +216,36 @@ cons.x8bisXs.970911  geneid_v1.2 Internal 146071   146236    5.28 +  1  gene_4
 cons.x8bisXs.970911  geneid_v1.2 Internal 147791   148030   12.98 +  0  gene_4
 cons.x8bisXs.970911  geneid_v1.2 Terminal 150313   150423    1.53 +  0  gene_4
 </pre>
-                                                </b>
-                                            </font>
-                                        </td>
-                                    <tr>
-                                        <td width=700 bgcolor="orange">
-                                            <b><tt>% geneid -GR evi.gff test.fasta</tt></b>
-                                        </td>
-                                </table>
-                            </font>
-                        </div>
-                    </td>
-            </table>
+</b>
+</font>
+</td>
+<tr>
+<td width=700 bgcolor="orange">
+<b><tt>% geneid -GR evi.gff test.fasta</tt></b>
+</td>
+</table>
+</font>
+</div>
+</td>
+</table>
 
-            <br>
-            <p><br>
+<br><p><br><p><br><p>
 
-            <table border=0>
-                <tr>
-                    <td align=left bgcolor=darkgreen>
-                        <script>
-                            var modifieddate = document.lastModified
-                            document.write("<font size=1 face  = 'arial black'  color='white'>" +
-                                "Last modified: " + modifieddate)
-                        </script>
-                    </td>
-            </table>
-            <br>
-            <a href="#top">Back to top</a>
-            <p>
-                Enrique Blanco Garcia &copy; 2003<br>
+<table border=0>
+<tr>
+<td align=left bgcolor=darkgreen>
+<script>
+var modifieddate=document.lastModified
+    document.write("<font size=1 face  = 'arial black'  color='white'>" + 
+                   "Last modified: " + modifieddate)
+</script>
+</td>
+</table>
+<br><p>
+Enrique Blanco Garcia &copy; 2003<br><p><br><p>
+</center>
 
-        </center>
 
 </body>
-
 </html>
+

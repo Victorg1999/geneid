@@ -1,47 +1,41 @@
 <html>
-
 <head>
-   <style type="text/css">
-      div.bulk {
-         text-align: justify
-      }
-   </style>
-   <title>
-      Homology Information
-   </title>
+<style type="text/css">
+div.bulk { text-align: justify }
+</style>
+<title>
+geneid docs
+</title>
 </head>
 
-<BODY TEXT color="blue" BGCOLOR="white" LINK="black" VLINK="black" ALINK="black">
+<BODY 
+TEXT color ="blue"
+BGCOLOR="white"
+LINK="black"
+VLINK="black"
+ALINK="black">
 
-   <br>
-   <p>
-      <center>
-         <table border=0 width=700 cellpadding=10>
-            <tr>
-               <td align=center bgcolor=white>
-                  <font face="courier" size=5 color="red"><b> Geneid Samples: Homology Information</b></font>
-               </td>
-            <tr>
-               <td align=center>
-                  <font face="arial black" size=3>
-                      <br><a href="./../index.html">INDEX</a>
-              </td>
-               <td></td>
-            <tr>
-               <td bgcolor="lightblue">
-                  <div class="bulk">
-                     <font face="arial black" size=2>
+<br><p>
+<center>
+<table border=0 width=700 cellpadding=10>
+<tr>
+<td align=center bgcolor=white><font face="courier" size=5 color="red">geneid samples: homology information</font></td>
+<tr>
+<td></td>
+<tr>
+<td bgcolor="lightblue">
+<div class="bulk"><font face="arial black" size=2>
 
-                        <table border=0>
-                           <tr>
-                              <td width=700 bgcolor="lightgreen" align="right">
-                                 <font size=5> 1. Prediction ab initio</font>
-                              </td>
-                           <tr>
-                              <td>
-                                 <font size=3>
-                                    <b>
-                                       <pre>
+<table border=0>
+<tr>
+<td width=700 bgcolor="lightgreen" align="right">
+<font size=5> 1. Prediction ab initio</font>
+</td>
+<tr>
+<td>
+<font size=3>
+<b>
+<pre>
 ## gff-version 2
 ## date Mon Oct  8 09:48:32 2003
 ## source-version: geneid v 1.2 -- geneid@imim.es
@@ -105,39 +99,37 @@ test	geneid_v1.2	Internal	192477	192743	17.00	+	2	gene_6
 test	geneid_v1.2	Internal	195269	195550	 1.81	+	2	gene_6
 test	geneid_v1.2	Internal	196514	196624	 1.56	+	2	gene_6
 </pre>
-                                    </b>
-                                 </font>
-                              </td>
-                           <tr>
-                              <td width=700 bgcolor="orange">
-                                 <b><tt>% geneid -G test.fasta</tt></b>
-                              </td>
-                        </table>
+</b>
+</font>
+</td>
+<tr>
+<td width=700 bgcolor="orange">
+<b><tt>% geneid -G test.fasta</tt></b>
+</td>
+</table>
 
-                        <br>
-                        <p><br>
-                        <p>
+<br><p><br><p>
 
-                        <table border=0>
-                           <tr>
-                              <td width=700 bgcolor="lightgreen" align="right">
-                                 <font size=5> 2. Introducing sequence homology information</font>
-                              </td>
-                           <tr>
-                              <td>
-                                 <font size=3>
-                                    <b>
-                                       <pre>
+<table border=0>
+<tr>
+<td width=700 bgcolor="lightgreen" align="right">
+<font size=5> 2. Introducing sequence homology information</font>
+</td>
+<tr>
+<td>
+<font size=3>
+<b>
+<pre>
 ## Homology information: HSP
 test	BLASTN	HSP	74000	75500	 50.000	-	.
 test	BLASTN	HSP	76000	76500	100.000	-	.
 test	BLASTN	HSP	78000	79500	 50.000	-	.
 </pre>
-                                    </b>
-                                 </font>
-                                 <hr>
-                                 <font size=2>
-                                    <pre>
+</b>
+</font>
+<hr>
+<font size=2>
+<pre>
 <b>
 ## date Mon Oct  8 10:21:06 2003
 ## source-version: geneid v 1.2 -- geneid@imim.es
@@ -292,37 +284,33 @@ DWTFQILVMLEITPQRGDIYTCQVEHPSLQSPITVEWRAQSESAQSKMLSGIGGFVLGLI
 FLGLGLIIRHRGQKag
 </b>
 </pre>
-                                 </font>
-                              </td>
-                           <tr>
-                              <td width=700 bgcolor="orange">
-                                 <b><tt>% geneid -GS sr.gff test.fasta</tt></b>
-                              </td>
-                        </table>
-               </td>
-         </table>
+</font>
+</td>
+<tr>
+<td width=700 bgcolor="orange">
+<b><tt>% geneid -GS sr.gff test.fasta</tt></b>
+</td>
+</table>
+</td>
+</table>
 
-         <br>
-         <p><br>
+<br><p><br><p><br><p>
 
-         <table border=0>
-            <tr>
-               <td align=left bgcolor=darkgreen>
-                  <script>
-                     var modifieddate = document.lastModified
-                     document.write("<font size=1 face  = 'arial black'  color='white'>" +
-                        "Last modified: " + modifieddate)
-                  </script>
-               </td>
-         </table>
-         <br>
-         <a href="#top">Back to top</a>
+<table border=0>
+<tr>
+<td align=left bgcolor=darkgreen>
+<script>
+var modifieddate=document.lastModified
+    document.write("<font size=1 face  = 'arial black'  color='white'>" + 
+                   "Last modified: " + modifieddate)
+</script>
+</td>
+</table>
+<br><p>
+Enrique Blanco Garcia &copy; 2003<br><p><br><p>
+</center>
 
-         <p>
-            Enrique Blanco Garcia &copy; 2003<br>
-
-      </center>
 
 </body>
-
 </html>
+

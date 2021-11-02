@@ -1,14 +1,15 @@
  <h1 align="center" color="blue"> Geneid v.1.4.5 README File <h1/>
 
-### [· What's geneid](#1)<br />
-### [· Installing geneid](#2) <br />
-### [· File Listing](#3) <br />
-### [· Compiling geneid](#4) <br />
-### [· To run geneid](#5) <br />
-### [· Authors and help](#6)<br />
+#### [· What's geneid](#1)
+#### [· Installing geneid](#2)
+#### [· File Listing](#3) 
+#### [· Compiling geneid](#4) 
+#### [· To run geneid](#5) 
+#### [· Authors and help](#6)<br />
+ <p align="center">
+  <img src="https://github.com/Victorg1999/geneid/blob/master/geneid.png"/>
+ </p>
  
- 
-
 ***************************************
 What's geneid ? <a name= "1"/>
 ------------------
